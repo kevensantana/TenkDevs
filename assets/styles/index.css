@@ -1,0 +1,70 @@
+
+
+
+.header{
+    position: absolute;
+    margin-top: 60px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.main{
+    
+    height: 100vh;
+    
+    position: relative;
+    
+    background: url("../img/Blobs.svg") no-repeat;
+}
+ 
+.img-cont{
+    position: absolute;
+    width: 660px;
+    height: 620px;
+    top: 5%;
+    left: 48%;
+    background: #27AE60;
+    background: url("../img/Programador\ main.svg")  no-repeat;
+}
+
+.container{
+    width: 560px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.container h1{
+    color: #D2D2D2;
+    font-size: 48px;
+}
+
+.container p{
+    color: #A9A9A9;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    font-size: 24px;
+
+}
+
+.container a{
+    background: #27AE60;
+    color: white;
+
+    font-weight: 700;
+    font-size: 18px;
+
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
